@@ -1,0 +1,27 @@
+.resume-section-alter{
+    background: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.resume-section-alter p{
+	color: #000;
+	font-weight: 550;
+}
+
+@media only screen and (max-width: 425px) {
+    .resume-section-alter{
+    	 background-size: 600px;
+    }
+
+    .resume-section-alter p{
+		color: #868e96;
+		font-weight: 400;
+	}
+}
+
